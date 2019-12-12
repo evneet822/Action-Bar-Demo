@@ -61,8 +61,10 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()){
             case R.id.item1:
-                listView.setChoiceMode(listView.CHOICE_MODE_MULTIPLE);
-                Toast.makeText(this, "Item 1 selected", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Delete selected", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.bluetooth:
+                Toast.makeText(this, "Bluetooth selected", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.help:
                 Intent help = new Intent(this,HelpActivity.class);

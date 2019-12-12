@@ -7,7 +7,11 @@
         android:icon="@drawable/ic_icon"
         android:title="Item1"
         app:showAsAction="ifRoom"/>
-
+    <item
+        android:id="@+id/bluetooth"
+        android:title="Item"
+        android:icon="@drawable/ic_bluetooth"
+        app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/help"
         android:title="Help"
@@ -16,7 +20,6 @@
         android:id="@+id/settings"
         android:title="Settings"
         app:showAsAction="never"/>
-
     <item
         android:id="@+id/item3"
         android:title="Item3"
@@ -26,17 +29,12 @@
             <item
                 android:id="@+id/subitem1"
                 android:title="Sub Item 1"/>
+
             <item
                 android:id="@+id/subitem2"
                 android:title="Sub Item 2"/>
 
-
-
-
         </menu>
 
     </item>
-
-
-
 </menu>
